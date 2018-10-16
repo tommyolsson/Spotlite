@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen android:title="@string/connect" android:key="sources_screen"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="save_playlist_to_library"
+        android:summary="@string/save_playlists_to_library_expl"
+        android:title="@string/save_playlists_to_library_titl" />
+
+</PreferenceScreen>
